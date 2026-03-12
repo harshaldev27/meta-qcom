@@ -48,4 +48,5 @@ FILES:${PN}-qteesupplicant = "${bindir}/qtee_supplicant \
 "
 
 RDEPENDS:${PN}-qteesupplicant = "${PN}"
+RRECOMMENDS:${PN}-qteesupplicant = "mount-tee-partition"
 
